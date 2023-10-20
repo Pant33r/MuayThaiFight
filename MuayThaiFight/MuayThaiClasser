@@ -1,0 +1,19 @@
+public class Weapon
+{
+
+public string name;
+
+private random generator;
+
+public Weapon
+{
+generator = new random();
+}
+  public int GetDamage()
+  {
+    return generator.Next(20, 50);
+  }
+}
+
+
+
